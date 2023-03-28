@@ -1,0 +1,8 @@
+@InProceedings{friedericikoepp2019,
+  author    = {A.~Friederici and W.~K{\"o}pp and M.~Atzori and R.~Vinuesa and P.~Schlatter and T.~Weinkauf},
+  title     = {Distributed Percolation Analysis for Turbulent Flows},
+  booktitle = {9th IEEE Symposium on Large Data Analysis and Visualization (LDAV)},
+  year      = {2019},
+  abstract  = {Percolation analysis is a valuable tool to study the statistical properties of turbulent flows. It is based on computing the percolation function for a derived scalar field, thereby quantifying the relative volume of the largest connected component in a superlevel set for a decreasing threshold. We propose a novel memory-distributed parallel algorithm to finely sample the percolation function. It is based on a parallel version of the union-find algorithm interleaved with a global synchronization step for each threshold sample. The efficiency of this algorithm stems from the fact that operations in-between threshold samples can be freely reordered, are mostly local and thus require no inter-process communication. Our algorithm is significantly faster than previous algorithms for this purpose, and is neither constrained by memory size nor number of compute nodes compared to the conceptually related algorithm for extracting augmented merge trees. This makes percolation analysis much more accessible in a large range of scenarios. We explore the scaling of our algorithm for different data sizes, number of samples and number of MPI processes. We demonstrate the utility of percolation analysis using large turbulent flow data sets.},
+  url = {http://tinoweinkauf.net/publications/absfriedericikoepp19.html},
+}
