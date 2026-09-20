@@ -92,6 +92,91 @@
   <table id="research" width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
   	<col class="paperimage"/>
     <col class="paperdescription"/>
+
+    <!-- Toward Unified Autonomous Scattering Experiments with a Cross-Facility Case Study at ALS and PETRA III -->
+      <tr>
+      <td>
+          <div class="imgborder">
+              <img src="./files/autonomous_scattering.svg" width="100%">
+          </div>
+      </td>
+      <td valign="top">
+        <p><a href="https://doi.org/10.1021/photonsci.5c00044">
+          <papertitle>Toward Unified Autonomous Scattering Experiments with a Cross-Facility Case Study at ALS and PETRA III</papertitle></a><br>
+          <strong>Wiebke Koepp</strong>, Benedikt Sochor, Dylan McReynolds, Tanny Chavez, Marcus Michael Noack, Raja Vyshnavi Sriramoju, Aidan Coffey, Yunfei Wang, Enno Henn, Anna Katharina Sambale, Eric Euchler, Damon English, Frank Schl&uuml;nzen, Eric Schaible, Chenhui Zhu, Sarathlal Koyiloth Vayalil, Stephan Volker Roth, Alexander Hexemer<br>
+          <em>Photon Science</em>, 2026<br>
+          <a href="https://doi.org/10.1021/photonsci.5c00044">doi</a>
+          /
+          <a href="https://github.com/illumine-project/saxswaxs-workflows">code</a>
+        </p>
+        <p>
+          We present a modular, open-source workflow for autonomous scattering experiments that integrates data access (Tiled), orchestration (Prefect), visual analytics (pyFAI, Dash), and GP-based adaptive sampling (gpCAM). Demonstrated across both ALS 7.3.3 and PETRA III P03, the framework shows that shared interfaces enable autonomous steering across diverse synchrotron facilities with minimal instrument-specific customization.</p>
+      </td>
+      </tr>
+
+      <!-- Accelerating Advanced Light Source Science Through Multi-Facility HPC Workflows -->
+      <tr>
+      <td>
+          <div class="imgborder">
+              <img src="./files/itk-vtk-sand.png" width="100%">
+          </div>
+      </td>
+      <td valign="top">
+        <p><a href="https://doi.org/10.1145/3731599.3767590">
+          <papertitle>Accelerating Advanced Light Source Science Through Multi-Facility HPC Workflows</papertitle></a><br>
+          David Abramov, Samuel Welborn, Ryan Chard, Kuldeep Chawla, Xiaoya Chong, Elizabeth Clark, Bjoern Enders, Alexander Hexemer, Jason Jed, <strong>Wiebke Koepp</strong>, Harinarayan Krishnan, Seij De Leon, Dilworth Parkinson, David Perlmutter, Raja Vyshnavi Sriramoju, Thomas Uram, Lee Lisheng Yang, Dylan McReynolds<br>
+          <em>SC Workshops 25: Proceedings of the SC 25 Workshops</em>, pp. 2328-2335, 2025<br>
+          <a href="https://doi.org/10.1145/3731599.3767590">doi</a>
+          /
+          <a href="https://github.com/als-computing/splash_flows">code</a>
+        </p>
+        <p>We present high-throughput multi-facility workflows linking synchrotron beamline data collection directly to leadership-class HPC systems, enabling near-real-time data reduction and streaming feedback during beamtimes.
+        </p>
+      </td>
+      </tr>
+
+      <!-- Optimizing Multi-GPU Inference of High-Resolution Segmentation in MLExchange -->
+      <tr>
+      <td>
+          <div class="imgborder">
+              <img src="./files/multigpu_segmentation.png" width="100%">
+          </div>
+      </td>
+      <td valign="top">
+        <p><a href="https://doi.org/10.1007/s11227-025-07413-5">
+          <papertitle>Optimizing Multi-GPU Inference of High-Resolution Segmentation in MLExchange</papertitle></a><br>
+          Shizhao Lu, Tanny Chavez, <strong>Wiebke Koepp</strong>, Guanhua Hao, Petrus H. Zwart, Alexander Hexemer<br>
+          <em>The Journal of Supercomputing</em> 81(9): 1058, 2025<br>
+          <a href="https://doi.org/10.1007/s11227-025-07413-5">doi</a>
+          /
+          <a href="https://github.com/mlexchange/mlex_multigpu_segmentation">code</a>
+        </p>
+        <p>We present an optimized multi-GPU distributed inference pipeline for high-resolution segmentation within the MLExchange framework, scaling deep learning model execution across distributed accelerators to eliminate analysis bottlenecks for large-scale synchrotron imaging data.
+        </p>
+      </td>
+      </tr>
+
+<!-- A Machine Learning-Driven Data Labeling Pipeline for Scientific Analysis in MLExchange -->
+      <tr>
+      <td>
+          <div class="imgborder">
+              <img src="./files/labelmaker.png" width="100%">
+          </div>
+      </td>
+      <td valign="top">
+        <p><a href="https://doi.org/10.1107/S1600576725002328">
+          <papertitle>A Machine Learning-Driven Data Labeling Pipeline for Scientific Analysis in MLExchange</papertitle></a><br>
+          Tanny Chavez, Zhuowen Zhao, Runbo Jiang, <strong>Wiebke Koepp</strong>, Dylan McReynolds, Petrus H. Zwart, Daniel B. Allan, Eliot H. Gann, Nicholas Schwarz, Daniela Ushizima, Edward S. Barnard, Apurva Mehta, Subramanian Sankaranarayanan, Alexander Hexemer<br>
+          <em>Journal of Applied Crystallography</em> 58(3), pp. 731-745, 2025<br>
+          <a href="https://doi.org/10.1107/S1600576725002328">doi</a>
+          /
+          <a href="https://github.com/mlexchange/mlex_labelmaker">code</a>
+        </p>
+        <p>We introduce an integrated data labeling and annotation framework tailored for experimental science within the MLExchange platform, enabling rapid human-in-the-loop curation and model training across scientific user facilities.
+        </p>
+      </td>
+      </tr>
+
       <!-- Temporal Treemaps: Static Visualization of Evolving Trees -->
       <tr>
       <td>
@@ -104,6 +189,7 @@
           <papertitle>Temporal Merge Tree Maps: A Topology-Based Static Visualization for Temporal Scalar Data</papertitle></a><br>
           <strong>Wiebke K&#246;pp</strong>, Tino Weinkauf<br>
           <em>IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2022) 29(1), 2022</em><br>
+           <a href="https://github.com/Wiebke/TemporalMergeTreeMaps">code</a>
           <!--/<a href="./files/koepp22.pdf">pdf</a>
           /
           <a href="./files/koepp22.bib">bibtex</a>
@@ -287,7 +373,7 @@
       <tbody><tr>
         <td>
           <p align="right">
-          (August 2022) <br>
+          (September 2026) <br>
           <a href="https://people.eecs.berkeley.edu/~barron/">Website template credits.</a>
         </p>
         </td>
